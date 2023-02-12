@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 // import Body from "./components/Body";
 import Body2 from "./components/Body2";
-import About from "./components/About";
+// import About from "./components/About";
 import { useState } from "react";
 import {
     BrowserRouter as Router,
@@ -31,12 +31,10 @@ const App = () => {
         <>
         <Router>
         <Navbar name="App Name" mode={mode} toogle={toogle} />
-            <Routes>
-                <Route exact path="/about" element={<About mode={mode} />}/>
-            </Routes>
-
-            <Routes>
-                <Route exact path="/body" element={<Body2 mode={mode} />}/>
+        <Routes>
+                <Route exact path="/" element={<Body2 mode={mode} />}/>
+                {/* <Route exact path="/about" element={<About mode={mode} />}/> */}
+                {/* <Route exact path="/body" element={<Body2 mode={mode} />}/> */}
             </Routes>
         </Router>
             

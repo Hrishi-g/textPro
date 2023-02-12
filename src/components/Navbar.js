@@ -9,9 +9,9 @@ function Navbar(props) {
             >
                 <div className="container-fluid">
                     {/* <Link className="navbar-brand" to="/">
-                        Navbar
-                    </Link>
-                    <button
+                        textPro
+                    </Link> */}
+                    {/* <button
                         className="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
@@ -37,15 +37,15 @@ function Navbar(props) {
                                 </Link>
                             </li> */}
                             <li className="nav-item">
-                                <Link className="nav-link mx-4" to="/body">
-                                    Main
+                                <Link className="nav-link mx-4" to="/">
+                                    <h1 className="navbar-brand">textPro</h1>
                                 </Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to="/about">
                                     About
                                 </Link>
-                            </li>
+                            </li> */}
                             {/* <li className="nav-item dropdown">
                                 <a
                                     className="nav-link dropdown-toggle"
@@ -76,7 +76,7 @@ function Navbar(props) {
                             </li> */}
                         </ul>
                     </div>
-                    <div className="form-check form-switch form-check-reverse">
+                    {/* <div className="form-check form-switch form-check-reverse">
                         <input
                             className="form-check-input mx-5"
                             type="checkbox"
@@ -87,7 +87,7 @@ function Navbar(props) {
                             className="form-check-label"
                             htmlFor="flexSwitchCheckReverse"
                         ></label>
-                    </div>
+                    </div> */}
                 </div>
             </nav>
         </>
